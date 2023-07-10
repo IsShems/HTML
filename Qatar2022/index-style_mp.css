@@ -1,0 +1,19 @@
+/*for margin code*/
+body{
+    background-color: rgb(190, 104, 132);
+    font-family:monospace
+}
+
+ol{
+    margin: 30px 10px 10px 10px;
+    font-size: 15px;
+}
+
+li{
+    font-size: 18px;
+    color: white;
+    margin: 10px;
+    margin-left: -10px;
+    padding: 10px;
+    background-color: rgb(169, 65, 88);
+}
