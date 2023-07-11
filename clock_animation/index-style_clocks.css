@@ -1,0 +1,47 @@
+.clocks{
+width: 200px;
+height: 200px;
+border: 3px solid;
+border-color: rgb(31, 104, 105);
+border-radius: 50%;
+background-color: white;
+padding: 10px 20px;
+margin: 20px auto;
+}
+
+.minute_pointer{
+    width: 2px;
+    height: 90px;
+    background-color: rgb(31, 104, 105);
+    position: absolute;
+    margin: 10px 99px;
+    transform-origin: 0% 100%;
+    animation: moving 60s infinite linear;
+
+}
+
+.second_pointer{
+    width: 2px;
+    height: 100px;
+    background-color: rgb(31, 104, 105);
+    position: absolute;
+    margin: 2px 99px;
+    transform-origin: 0% 100%;
+    animation: moving 30s infinite linear;
+}
+
+.dot{
+    height: 11px;
+    width: 11px;
+    background-color: rgb(24, 76, 77);
+    border-radius: 50%;
+    margin: 95px;
+    position: absolute;
+
+}
+
+@keyframes moving {
+    100% {
+      transform: rotateZ(360deg);
+    }
+  }
