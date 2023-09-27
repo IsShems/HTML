@@ -45,9 +45,9 @@ body - основное тело веб-страницы, где будет от
   ```  </a>```
 
 здесь мы создаем ссылку с помощью тега a на фотографию с помощью тега img большего размера чем на нашей веб-страницы, а путь к фотографии прописываем с помощью атрибута src
-   
-   ``` <p>This textbook covers a broad range of topics required</p>```
-   ``` <p><a href="http://asoiu.edu.az/">Learn more</a></p>```
+
+    <p>This textbook covers a broad range of topics required</p>
+    <p><a href="http://asoiu.edu.az/">Learn more</a></p>
   добавляем заголовок второго уровня h2
    
       <h2><b>First Chapter</b></h2>
