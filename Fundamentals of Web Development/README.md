@@ -8,6 +8,7 @@
 
 # Шаг 2: Внутри HTML-документа пишем:
 
+```
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,7 +20,7 @@
   
 </body>
 </html>
-
+```
 
 где <!DOCTYPE html> - объявление типа документа.
 <html lang="en"> - начало HTML-документа с указанием языка (en - английский).
@@ -30,18 +31,25 @@
 # Шаг 3: Добавляем содержимое в <body>:
 
 Внутри <body> прописываем теги, текст и добавляем ссылки и фотографии
-<h1><b>Fundamentals of Web Development</b></h1>
+  
+ ``` <h1><b>Fundamentals of Web Development</b></h1>```
+   
 добавляем заголовок первого уровня <h1> и тег <b> для стиля чтобы он был жирный
+   
     <p><em>By Randy Connolly and Ricardo Hoar</em></p>
+    
 добавляем абзац <p> и тег <em> для стиля чтобы был курсивным
+  
     <a href="Coverlarge.jpg" target="_blank"> 
         <img src="cover-small.jpg" alt="">
     </a>
 здесь мы создаем ссылку с помощью тега <a> на фотографию с помощью тега <img> большего размера чем на нашей веб-страницы, а путь к фотографии прописываем с помощью атрибута src
+   
     <p>This textbook covers a broad range of topics required</p>
     <p><a href="http://asoiu.edu.az/">Learn more</a></p>
   добавляем заголовок второго уровня <h2>
-   <h2><b>First Chapter</b></h2>
+   
+      <h2><b>First Chapter</b></h2>
    
   <ol> и <li>: Эти теги используются для создания упорядоченного (нумерованного) списка. 
   <ol> обозначает начало упорядоченного списка, и каждый элемент списка определяется тегом <li>.
